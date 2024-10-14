@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="color: rgb(54, 108, 225); text-align: center;"><u>Laporan Teori</u></h1>
+    <br>
+    <ol>
+        <li style="color: rgb(54, 108, 225);">
+            <u>Pertanyaan seputar <i>tag</i></u>
+            <ol type="a" style="color: black;">
+                <li>Apa yang dimaksud dengan <i>tag</i> pada html?</li>
+                <li>Apa itu pembuka dan penutup <i>tag</i>? Apakah hal tersebut terdapat pada semua jenis
+                    <i>tag</i>?</li>
+            </ol>
+            <br>
+        </li>
+        <li style="color: rgb(54, 108, 225);">
+            <u>Pertanyaan seputar <i>element</i></u>
+            <ol type="a" style="color: black;">
+                <li>Apa yang dimaksud dengan <i>element</i>?</li>
+                <li>Apa yang dimaksud dengan <i><b>tagname, attribute dan content</b></i> pada <i>element</i>?</li>
+                <li>Apakah <i>element</i> dapat ditumpuk? Apa yang terjadi bila demikian?</li>
+            </ol>
+            <br><br>
+        </li>
+        <li style="color: rgb(54, 108, 225);">
+            <u>Pertanyaan seputar <i>anchor</i></u>
+            <ol type="a" style="color: black;">
+                <li>Apa yang dimaksud dengan <i>anchor</i>?</li>
+                <li>Bagaimana caranya <i>anchor</i> dapat berfungsi, baik dari sisi pendefinisian ataupun 
+                    pengaplikasiannya? </li>
+            </ol>
+            <br><br>
+        </li>
+    </ol>
+    <p style="color: rgb(54, 108, 225); text-align: center;">
+        4. <u>Pertanyaan seputar <I>multimedia</I></u>
+    </p>
+    <table  style="align-items: center; display: flex; justify-content: center;">
+        <tr style="text-align: center;">
+            <td width="80px">
+                A. <i>Text</i>
+            </td>
+            <td>
+                B. <i>Image</i>
+            </td>
+            <td>
+                C. <i>Audio</i>
+            </td>
+            <td>
+                D. <i>Video</i>
+            </td>
+        </tr>
+        <tr>
+            <td width="180px">
+                <ul>
+                    <li>
+                        Sebutkan <i>tag</i> yang dapat digunakan untuk memanipulasi konten teks pada html, serta jelaskan fungsinya secara singkat!
+                    </li>
+                    <li>
+                        Sebutkan <i>tag</i> yang dapat digunakan untuk memanipulasi struktur konten teks pada html!
+                    </li>
+                </ul>
+            </td>
+            <td width="180px">
+                <ul>
+                    <li>
+                        Apabila sebuah <i>tag image</i> tidak menampilkan gambar sebagaimana 
+                        seharusnya, apa saja yang mungkin menyebabkan hal tersebut?
+                    </li>
+                    <li>
+                        Apabila ternyata ada teks yang menggantikan gambar tersebut, apa yang sebenarnya terjadi?
+                    </li>
+                </ul>
+            </td>
+            <td width="180px" style="display: flex; flex-direction: row;">
+                <ul>
+                    <li>
+                        Bagaimana caranya untuk kita dapat memasukkan audio source dari web (non-lokal)?
+                    </li>
+                </ul>
+            </td>
+            <td width="180px">
+                <ul>
+                    <li>
+                        Apa yang biasanya terjadi apabila atribut autoplay pada tag video tidak berjalan? Apa yang anda 
+                        harus lakukan sehingga atribut tersebut dapat berfungsi dengan semestinya
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <h2 style="text-align: center; color: rgb(11, 249, 6);">JAWABAN</h2>
+    <ol>
+        <li>
+            Pertanyaan seputar Tag
+            <ol type="a">
+                <li>
+                    Tag pada HTML adalah elemen-elemen yang digunakan untuk menandai dan mengatur konten di dalam halaman web. Tag dikelilingi oleh tanda kurung sudut < > dan biasanya terdiri dari nama elemen HTML di antara kurung tersebut. 
+                    Seperti : &lt;p&gt;, &lt;div&gt;, &lt;a&gt;,  dan &lt;body&gt;,
+                    Setiap tag memberi tahu browser bagaimana menampilkan atau menginterpretasikan teks, gambar, atau elemen lainnya di dalam halaman.
+                </li>
+                <br>
+                <li>
+                    Tag pembuka adalah tag yang menandai awal dari suatu elemen. Formatnya adalah:
+                    &lt;tagname&gt;. Contohnya: &lt;p&gt; untuk menandai paragraf. 
+                    Tag penutup adalah tag yang menandai akhir dari elemen tersebut. Formatnya adalah: 
+                    &lt;tagname&gt;. Misalnya: &lt;p&gt; untuk menutup paragraf yang dimulai oleh &lt;p&gt;. 
+                <p>    
+                    Tidak semua jenis tag di HTML memiliki penutup. Ada beberapa tag self-closing yang tidak memerlukan penutup karena mereka tidak mengandung konten. Tag ini biasanya digunakan untuk elemen yang tidak memiliki isi, seperti &lt;img&gt; (gambar) atau &lt;br&gt; (baris baru). Contoh format self-closing tag adalah &lt;img /&gt; atau &lt;br /&gt;, meskipun dalam HTML5, hanya &lt;img&gt; atau &lt;br&gt; sudah dianggap cukup.
+                </p> 
+                </li>
+            </ol>
+        </li>
+        <li>
+            Pertanyaan seputar Element
+            <ol type="a">
+                <li>
+                    Dalam HTML, elemen adalah blok penyusun dari sebuah halaman web yang mencakup tag pembuka, konten (jika ada), dan tag penutup. Elemen inilah yang digunakan untuk membentuk struktur halaman web, seperti paragraf, link, gambar, tabel, dan sebagainya. Contoh elemen lengkap adalah: 	( &lt;p&gt;This is a paragraph.&lt;/p&gt; )
+                    Elemen tersebut terdiri dari tag pembuka &lt;p&gt;, konten "This is a paragraph.", dan tag penutup &lt;/p&gt;.
+                </li>
+                <br>
+                <li>
+                    <ul>
+                        <li>
+                            Tagname
+                            <p>
+                                Tagname adalah nama dari elemen HTML yang digunakan untuk mengidentifikasi jenis elemen tersebut. Misalnya, dalam elemen &lt;p&lt;, tagname-nya adalah p, yang menandakan paragraf. 
+                            </p>
+                        </li>
+                        <li>
+                            Attribute
+                            <p>
+                                Attribute adalah informasi tambahan yang ditambahkan ke tag untuk memberikan properti atau perilaku tertentu kepada elemen tersebut. Attribute ditulis di dalam tag pembuka dan terdiri dari pasangan nama dan nilai. Misalnya, dalam elemen  &lt;a href="https://example.com" &gt;, href adalah attribute yang menentukan tujuan link. Contoh lain dari elemen dengan attribute :  &lt;img src="image.jpg" alt="Description of image" &gt; Di sini, src adalah attribute yang menunjuk pada lokasi gambar, dan alt adalah attribute yang memberikan teks alternatif untuk gambar. 
+                            </p>
+                        </li>
+                        <li>
+                            Content
+                            <p>
+                                Content adalah teks, gambar, atau elemen lain yang berada di antara tag pembuka dan tag penutup. Misalnya, dalam elemen &lt;p&gt;This is content&lt;/p&gt;, teks "This is content" adalah konten dari elemen tersebut.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    Ya, elemen dapat ditumpuk atau bersarang satu sama lain. Elemen yang bersarang berarti ada satu elemen di dalam elemen lainnya. Jika elemen ditumpuk dengan benar, browser akan menampilkannya sesuai dengan struktur. Namun, jika penumpukan tidak tepat (misalnya tag tidak tertutup), akan terjadi kesalahan rendering atau tampilan yang tidak sesuai.
+                </li>
+            </ol>
+        </li>
+        <li>
+            Anchor
+            <ol type="a">
+                <li>
+                    Anchor adalah elemen HTML yang digunakan untuk membuat hyperlink. Elemen ini memungkinkan pengguna untuk mengklik teks atau elemen lainnya untuk menuju ke halaman lain, bagian lain dari halaman yang sama, atau sumber daya eksternal. Tag anchor ditulis dengan tag &lt;a&gt;. 
+                </li>
+                <br>
+                <li>
+                    Pendefenisian
+                    <p>
+                        Sebuah anchor ditulis dengan tag &lt;a&gt; dan attribute href, yang menentukan tujuan link.
+                        Contoh : &lt;a href="https://example.com"&gt;Klik di sini</a>
+                        Dalam contoh ini, teks "Klik di sini" akan menjadi hyperlink yang, jika diklik, akan membawa pengguna ke "https://example.com".                            
+                    </p>
+                </li>
+                <li>
+                    Pengaplikasian
+                    <p>
+                        Navigasi ke halaman lain Dengan href yang berisi URL eksternal. Navigasi ke bagian lain dari halaman yang sama Menggunakan anchor dengan tanda # diikuti ID elemen yang dituju, seperti:
+                        &lt;a href="#section">Menuju Bagian&gt; &lt;/a&gt;
+                        &lt;div id="section"&gt;Ini adalah bagian yang dituju&lt;/div&gt;
+                    </p>
+                </li>
+            </ol>
+        </li>
+        <li>
+            Pertanyaan seputar Multimedia
+            <ol type="a">
+                <li>
+                    Text
+                    <ul style="list-style-type: square;">
+                        <li>
+                            -	Tag untuk memanipulasi konten teks :
+                            <ul>
+                                <li>
+                                    &lt;p&gt; : membuat paragraf.
+                                    < i > : Membuat teks miring.
+                                    < u > : Menggarisbawahi teks.
+                                    < strong > : Memberi penekanan tebal pada teks, biasanya untuk SEO.
+                                    < em > : Memberi penekanan miring pada teks, biasanya untuk penekanan logis.
+                                    
+                                </li>
+                                <li>
+                                    &lt;i&gt; : Membuat teks miring.
+                                </li>
+                                <li>
+                                    &lt;u&gt; : Menggarisbawahi teks.
+                                </li>
+                                <li>
+                                    &lt;strong&gt; : Memberi penekanan tebal pada teks, biasanya untuk SEO.
+                                </li>
+                                <li>
+                                    &lt;em&gt; : Memberi penekanan miring pada teks, biasanya untuk penekanan logis.
+                                </li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>
+                            -	Tag untuk memanipulasi struktur konten teks:
+                            <ul>
+                                <li>
+                                    &lt;p&gt; : Membuat paragraf.
+                                    &lt;br&gt;: Menyisipkan baris baru.
+                                    &lt;h1&gt; sampai &lt;h6&gt;: Heading level 1 hingga 6 untuk judul atau subjudul.
+                                    &lt;blockquote&gt;: Menampilkan teks sebagai kutipan blok.
+                                    &lt;pre&gt;: Menampilkan teks dalam format asli (termasuk spasi dan baris).
+                                    &lt;hr&gt;: Menyisipkan garis horizontal sebagai pembatas.
+                                       
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Image
+                    <ul>
+                        <li>
+                            Penyebab Gambar Tidak Ditampilkan :
+                            <ul>
+                                <li>
+                                    -	Kesalahan pada URL : URL yang salah atau gambar tidak tersedia di lokasi yang ditentukan oleh src.
+                                    -	Format gambar tidak didukung : Browser tidak mendukung format gambar (misalnya, file .webp di browser lama).
+                                    -	Kesalahan penulisan tak : Kesalahan sintaksis, seperti penulisan atribut src atau penempatan tanda kutip.
+                                </li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>
+                            Teks yang menggantikan gambar :
+                            <ul>
+                                <li>
+                                    Jika gambar tidak tampil, teks dari atribut alt akan muncul sebagai pengganti. Contoh :
+                                    &lt;img src="image.jpg" alt="Gambar tidak dapat ditampilkan" &gt;
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Audio 
+                    <p>
+                        -	Untuk memasukkan audio dari sumber web, gunakan tag &lt;audio&gt; dengan atribut src yang mengarah ke file audio online. Contoh :
+                        &lt; audio controls &gt;
+                        &lt;source src="https://example.com/audio.mp3" type="audio/mpeg" &gt;
+                        &lt; /audio &gt; 
+                    </p>                             
+                </li>
+                <li>
+                    Video
+                    <p>
+                        -	Atribut autoplay mungkin tidak berjalan karena browser mencegah pemutaran otomatis untuk meningkatkan pengalaman pengguna (terutama jika suara menyala).
+                        -	Solusi : Agar autoplay berfungsi, tambahkan atribut muted sehingga video dimulai tanpa suara, karena banyak browser hanya mengizinkan autoplay jika video dimulai dalam mode tanpa suara.
+                        Contoh : 
+                        &lt;video autoplay muted &gt;
+                        &lt;source src="video.mp4" type="video/mp4" &gt;
+                        &lt; /video &gt;                         
+                    </p>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+    <p style="text-align: center;">Laporan Praktikum</p>
+    <ol>
+        <li>   
+            Buatlah laman web yang berisi soal-soal pada laporan teori, buatlah pula sesuai dengan 
+            format/struktur yang telah disediakan (heading, list, table, font style)
+        </li>
+        <li>
+            Buatlah form untuk mengisi data diri (nama dan nim) dan juga tanggal pada bagian 
+            bawah (setelah laporan praktikum pertama) secara rapi (gunakan table) dan buat 
+            tombol submit yang mengarah ke halaman baru yang menampilkan gif pada 
+            link: <a href="https://i0.wp.com/justmaths.co.uk/wp-content/uploads/2016/10/celebration-gif.gif?ssl=1">celebration-gif.gif (500×226) (wp.com)</a>
+            dengan ukuran sebesar halaman web (100%)
+        </li>
+    </ol>
+    <br><br><br><br>
+    <h1 style="text-align: center; color: rgb(23, 246, 34);" >Form Data Diri</h1>
+    <form action="gif.html">
+        <table>
+            <tr>
+                <td><label for="nama">Nama Mahasiswa</label></td>
+                <td><input type="text" name="nama" id="nama" required autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="nim">NIM Mahasiswa</label></td>
+                <td><input type="text" name="nim" id="nim" pattern="[0-9]{9}" required title="Wajib Diisi"></td>
+            </tr>
+            <tr>
+                <td><label for="t">Tanggal </label></td>
+                <td><input type="date" name="t" id="t" placeholder="date"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Simpan"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
